@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4208A126A73E1400C38961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4208A026A73E1400C38961 /* AppDelegate.swift */; };
+		AC4208A326A73E1400C38961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4208A226A73E1400C38961 /* SceneDelegate.swift */; };
+		AC4208A526A73E1400C38961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4208A426A73E1400C38961 /* ViewController.swift */; };
+		AC4208A826A73E1400C38961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4208A626A73E1400C38961 /* Main.storyboard */; };
+		AC4208AA26A73E1600C38961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4208A926A73E1600C38961 /* Assets.xcassets */; };
+		AC4208AD26A73E1600C38961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4208AB26A73E1600C38961 /* LaunchScreen.storyboard */; };
+		AC4208B826A73E1600C38961 /* MeuSignoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4208B726A73E1600C38961 /* MeuSignoTests.swift */; };
+		AC4208C326A73E1600C38961 /* MeuSignoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4208C226A73E1600C38961 /* MeuSignoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4208B426A73E1600C38961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC42089526A73E1400C38961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC42089C26A73E1400C38961;
+			remoteInfo = MeuSigno;
+		};
+		AC4208BF26A73E1600C38961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC42089526A73E1400C38961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC42089C26A73E1400C38961;
+			remoteInfo = MeuSigno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC42089D26A73E1400C38961 /* MeuSigno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuSigno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4208A026A73E1400C38961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4208A226A73E1400C38961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC4208A426A73E1400C38961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4208A726A73E1400C38961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4208A926A73E1600C38961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4208AC26A73E1600C38961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4208AE26A73E1600C38961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4208B326A73E1600C38961 /* MeuSignoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuSignoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4208B726A73E1600C38961 /* MeuSignoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuSignoTests.swift; sourceTree = "<group>"; };
+		AC4208B926A73E1600C38961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4208BE26A73E1600C38961 /* MeuSignoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuSignoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4208C226A73E1600C38961 /* MeuSignoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuSignoUITests.swift; sourceTree = "<group>"; };
+		AC4208C426A73E1600C38961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC42089A26A73E1400C38961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208B026A73E1600C38961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208BB26A73E1600C38961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC42089426A73E1400C38961 = {
+			isa = PBXGroup;
+			children = (
+				AC42089F26A73E1400C38961 /* MeuSigno */,
+				AC4208B626A73E1600C38961 /* MeuSignoTests */,
+				AC4208C126A73E1600C38961 /* MeuSignoUITests */,
+				AC42089E26A73E1400C38961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC42089E26A73E1400C38961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC42089D26A73E1400C38961 /* MeuSigno.app */,
+				AC4208B326A73E1600C38961 /* MeuSignoTests.xctest */,
+				AC4208BE26A73E1600C38961 /* MeuSignoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC42089F26A73E1400C38961 /* MeuSigno */ = {
+			isa = PBXGroup;
+			children = (
+				AC4208A026A73E1400C38961 /* AppDelegate.swift */,
+				AC4208A226A73E1400C38961 /* SceneDelegate.swift */,
+				AC4208A426A73E1400C38961 /* ViewController.swift */,
+				AC4208A626A73E1400C38961 /* Main.storyboard */,
+				AC4208A926A73E1600C38961 /* Assets.xcassets */,
+				AC4208AB26A73E1600C38961 /* LaunchScreen.storyboard */,
+				AC4208AE26A73E1600C38961 /* Info.plist */,
+			);
+			path = MeuSigno;
+			sourceTree = "<group>";
+		};
+		AC4208B626A73E1600C38961 /* MeuSignoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4208B726A73E1600C38961 /* MeuSignoTests.swift */,
+				AC4208B926A73E1600C38961 /* Info.plist */,
+			);
+			path = MeuSignoTests;
+			sourceTree = "<group>";
+		};
+		AC4208C126A73E1600C38961 /* MeuSignoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4208C226A73E1600C38961 /* MeuSignoUITests.swift */,
+				AC4208C426A73E1600C38961 /* Info.plist */,
+			);
+			path = MeuSignoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC42089C26A73E1400C38961 /* MeuSigno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4208C726A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSigno" */;
+			buildPhases = (
+				AC42089926A73E1400C38961 /* Sources */,
+				AC42089A26A73E1400C38961 /* Frameworks */,
+				AC42089B26A73E1400C38961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeuSigno;
+			productName = MeuSigno;
+			productReference = AC42089D26A73E1400C38961 /* MeuSigno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4208B226A73E1600C38961 /* MeuSignoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4208CA26A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSignoTests" */;
+			buildPhases = (
+				AC4208AF26A73E1600C38961 /* Sources */,
+				AC4208B026A73E1600C38961 /* Frameworks */,
+				AC4208B126A73E1600C38961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4208B526A73E1600C38961 /* PBXTargetDependency */,
+			);
+			name = MeuSignoTests;
+			productName = MeuSignoTests;
+			productReference = AC4208B326A73E1600C38961 /* MeuSignoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4208BD26A73E1600C38961 /* MeuSignoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4208CD26A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSignoUITests" */;
+			buildPhases = (
+				AC4208BA26A73E1600C38961 /* Sources */,
+				AC4208BB26A73E1600C38961 /* Frameworks */,
+				AC4208BC26A73E1600C38961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4208C026A73E1600C38961 /* PBXTargetDependency */,
+			);
+			name = MeuSignoUITests;
+			productName = MeuSignoUITests;
+			productReference = AC4208BE26A73E1600C38961 /* MeuSignoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC42089526A73E1400C38961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AC42089C26A73E1400C38961 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AC4208B226A73E1600C38961 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC42089C26A73E1400C38961;
+					};
+					AC4208BD26A73E1600C38961 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC42089C26A73E1400C38961;
+					};
+				};
+			};
+			buildConfigurationList = AC42089826A73E1400C38961 /* Build configuration list for PBXProject "MeuSigno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC42089426A73E1400C38961;
+			productRefGroup = AC42089E26A73E1400C38961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC42089C26A73E1400C38961 /* MeuSigno */,
+				AC4208B226A73E1600C38961 /* MeuSignoTests */,
+				AC4208BD26A73E1600C38961 /* MeuSignoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC42089B26A73E1400C38961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4208AD26A73E1600C38961 /* LaunchScreen.storyboard in Resources */,
+				AC4208AA26A73E1600C38961 /* Assets.xcassets in Resources */,
+				AC4208A826A73E1400C38961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208B126A73E1600C38961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208BC26A73E1600C38961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC42089926A73E1400C38961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4208A526A73E1400C38961 /* ViewController.swift in Sources */,
+				AC4208A126A73E1400C38961 /* AppDelegate.swift in Sources */,
+				AC4208A326A73E1400C38961 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208AF26A73E1600C38961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4208B826A73E1600C38961 /* MeuSignoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4208BA26A73E1600C38961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4208C326A73E1600C38961 /* MeuSignoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4208B526A73E1600C38961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC42089C26A73E1400C38961 /* MeuSigno */;
+			targetProxy = AC4208B426A73E1600C38961 /* PBXContainerItemProxy */;
+		};
+		AC4208C026A73E1600C38961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC42089C26A73E1400C38961 /* MeuSigno */;
+			targetProxy = AC4208BF26A73E1600C38961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4208A626A73E1400C38961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4208A726A73E1400C38961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4208AB26A73E1600C38961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4208AC26A73E1600C38961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4208C526A73E1600C38961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4208C626A73E1600C38961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4208C826A73E1600C38961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSigno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSigno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4208C926A73E1600C38961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSigno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSigno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4208CB26A73E1600C38961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSignoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSignoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuSigno.app/MeuSigno";
+			};
+			name = Debug;
+		};
+		AC4208CC26A73E1600C38961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSignoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSignoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuSigno.app/MeuSigno";
+			};
+			name = Release;
+		};
+		AC4208CE26A73E1600C38961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSignoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSignoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeuSigno;
+			};
+			name = Debug;
+		};
+		AC4208CF26A73E1600C38961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P67LU7PJ98;
+				INFOPLIST_FILE = MeuSignoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cit.bootcamp.MeuSignoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeuSigno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC42089826A73E1400C38961 /* Build configuration list for PBXProject "MeuSigno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4208C526A73E1600C38961 /* Debug */,
+				AC4208C626A73E1600C38961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4208C726A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSigno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4208C826A73E1600C38961 /* Debug */,
+				AC4208C926A73E1600C38961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4208CA26A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSignoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4208CB26A73E1600C38961 /* Debug */,
+				AC4208CC26A73E1600C38961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4208CD26A73E1600C38961 /* Build configuration list for PBXNativeTarget "MeuSignoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4208CE26A73E1600C38961 /* Debug */,
+				AC4208CF26A73E1600C38961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC42089526A73E1400C38961 /* Project object */;
+}
